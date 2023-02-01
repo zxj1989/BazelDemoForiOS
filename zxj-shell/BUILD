@@ -12,7 +12,7 @@ swift_library(
 
 ios_application(
     name = "zxj-shell",
-    bundle_id = "tv.danmaku.bilianime",
+    bundle_id = "com.zxj.test",
     app_icons = glob(["Assets.xcassets/AppIcon.appiconset/*.png"])
          + glob(["Assets.xcassets/AppIcon.appiconset/*.json"]),
     launch_storyboard = "LaunchScreen.storyboard",
