@@ -5,4 +5,5 @@ swift_library(
     srcs = glob(["*.swift",]),
     visibility = ["//zxj-shell:__pkg__"],
     # visibility = ["//visibility:public"],
+    deps = ["//srcs/app/B:B"]
 )
